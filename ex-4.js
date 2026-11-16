@@ -1,2 +1,25 @@
 // Start coding here
-let calculator = {};
+let calculator = {
+  add: (a, b) => {
+    const result = a + b;
+    return result;
+  },
+  subtract: (a, b) => {
+    const result = a - b;
+    return result;
+  },
+  multiply: (a, b) => {
+    const result = a * b;
+    return result;
+  },
+  divide: (a, b) => {
+    const result = a / b;
+    return result;
+  },
+};
+
+let addResult = calculator.add(10, 20);
+console.log(addResult);
+
+let divideResult = calculator.divide(3000, 10);
+console.log(divideResult);
